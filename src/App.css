@@ -1,0 +1,107 @@
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  position: absolute;
+  bottom: 0; top: 0; left:0; right: 0; 
+}
+
+.sidemenu {
+  width: 320px;
+  overflow: auto;
+  background-color: #003366;
+  color: white;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  position: relative; 
+}
+
+.lower-side-menu {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.side-menu-button {
+  padding: 12px;
+  border: 1px solid;
+  border-radius: 5px;
+  text-align: left;
+  background-color: #336699;
+  transition: ease 0.25s all;
+}
+
+.side-menu-button:hover {
+  cursor: pointer;
+  background-color: #6699CC;
+}
+
+.side-menu-button span {
+  padding-left: 6px;
+  padding-right: 12px;
+}
+
+.heading {
+  font-size: 2rem;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  margin-left: 1rem;
+}
+
+.logo {
+  margin-right: 1rem;
+  margin-left: 1.5rem;
+  height: 3rem;
+  width: 3rem;
+  filter: invert(1);
+}
+
+.chatbox {
+  flex: 1;
+  position: relative;
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+.chat-log { 
+  text-align: left;
+  
+}
+
+.chat-input-holder {
+  padding: 24px;
+  position: fixed; 
+  bottom: 0;
+  left: 320px;
+  right: 0;
+  background-color: white; 
+  z-index: 1; 
+}
+
+.chat-input-textarea {
+  background-color: #F0F0F0;
+  width: 90%;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1em;
+  border: none;
+  border-color: none;
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0,0,0,0.25);
+  resize: none;
+  overflow: hidden;
+}
+
+.loader-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
